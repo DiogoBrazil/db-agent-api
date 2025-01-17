@@ -1,6 +1,6 @@
 import { inject, injectable } from 'inversify';
-import { CustomerRepository } from '../repositories/CustomerRepository';
-import { TYPES } from '../../infra/types';
+import { CustomerRepository } from '../../repositories/CustomerRepository';
+import { TYPES } from '../../../infra/types';
 
 @injectable()
 export class DeleteCustomer {

@@ -1,7 +1,7 @@
 import { inject, injectable } from 'inversify';
-import { CustomerRepository } from '../repositories/CustomerRepository';
-import { Customer } from '../entities/Customer';
-import { TYPES } from '../../infra/types';
+import { CustomerRepository } from '../../repositories/CustomerRepository';
+import { Customer } from '../../entities/Customer';
+import { TYPES } from '../../../infra/types';
 
 @injectable()
 export class CreateCustomer {

@@ -1,10 +1,10 @@
 // src/infra/http/controllers/CustomerController.ts
 import { inject, injectable } from 'inversify';
 import { Request, Response } from 'express';
-import { CreateCustomer } from '../../../domain/usecases/CreateCustomer';
-import { GetCustomerById } from '../../../domain/usecases/GetCustomerById';
-import { UpdateCustomer } from '../../../domain/usecases/UpdateCustomer';
-import { DeleteCustomer } from '../../../domain/usecases/DeleteCustomer';
+import { CreateCustomer } from '../../../domain/usecases/customers/CreateCustomer';
+import { GetCustomerById } from '../../../domain/usecases/customers/GetCustomerById';
+import { UpdateCustomer } from '../../../domain/usecases/customers/UpdateCustomer';
+import { DeleteCustomer } from '../../../domain/usecases/customers/DeleteCustomer';
 import { TYPES } from '../../types';
 import { handleError } from '../../../utils/errorHandler';
 
